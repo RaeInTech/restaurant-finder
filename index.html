@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Finder</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  </head>
+  <body>
+    <section class="uiWidget">
+      <label for="name">Title</label>
+      <input type="text" id="name" />
+      <h2 id="restaurantName"></h2>
+      <ul id="grade"></ul>
+    </section>
+    <section>
+      <div id="map"></div>
+    </section>
+    <script src="main.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
